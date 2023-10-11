@@ -18,7 +18,7 @@ async function sendContactData(contactDetails) {
 	}
 }
 
-function contactForm() {
+function ContactForm() {
 	const [enteredEmail, setEnteredEmail] = useState('');
 	const [enteredName, setEnteredName] = useState('');
 	const [enteredMessage, setEnteredMessage] = useState('');
@@ -51,7 +51,6 @@ function contactForm() {
 			setEnteredEmail('');
 			setEnteredMessage('');
 			setEnteredName('');
-			s
 		} catch (error) {
 			setRequestError(error.message)
 			setRequestStatus('error');
@@ -136,4 +135,4 @@ function contactForm() {
 	)
 }
 
-export default contactForm;
+export default ContactForm;
