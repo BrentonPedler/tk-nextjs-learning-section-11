@@ -40,7 +40,7 @@ function PostContent(props) {
 				);
 			}
 
-			return <p>{paragraph.children}</p>;
+			return <p>{paragraph.children}</p>
 		},
 
 		code(code) {
